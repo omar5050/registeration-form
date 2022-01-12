@@ -1,0 +1,45 @@
+
+body{
+    background: rgb(36, 53, 63);
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.form-body{
+    background: rgb(36, 53, 63);
+}
+.form-body h1{
+    color: rgb(23, 162, 184);
+
+}
+.form-body a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.form-control{
+    background-color: transparent;
+    color: white;
+}
+.form-control:focus{
+    background-color: transparent;
+    color: white;
+}
+
+
+/* style login Home */
+#home{
+    background: rgb(36, 53, 63);
+
+}
+.welcome{
+    background: rgb(36, 53, 63);
+
+}
+/**********************************************************/
+
+
+
+/* style signUp Home */
+

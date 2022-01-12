@@ -1,0 +1,37 @@
+
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+    <title>SignUp</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="parent d-flex justify-content-center align-items-center py-5 vh-100">
+                    <div class="form-body py-5  w-75 mx-auto text-center shadow-lg">
+                        
+                        <h1>Smart Login System</h1>
+                        
+                        <div class="py-3 w-75 mx-auto">
+                            
+                            <input type="text" id="inputName" class="form-control my-3" placeholder="Enter Your Name" required>
+                            <input type="email" id="inputEmail" class="form-control my-3" placeholder="Enter Your Email" required>
+                            <input type="password" id="inputPass" class="form-control" placeholder="Enter Your Password" required>
+                        
+                        </div>
+                        
+                        <button onclick="signUp()" id="SignUpBtn" class="btn btn-outline-info w-75 my-3 mx-auto d-block">Sign Up</button>
+                        <span class="text-white">Don’t have an account? <a href="../index.html">Signin</a></span>
+                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/signUp.js"></script>
+</body>
+</html>
